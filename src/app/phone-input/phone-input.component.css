@@ -1,0 +1,64 @@
+/* Center the form on the page */
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Style the input field */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures padding doesn't exceed width */
+  }
+  
+  /* Style the submit button */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover state */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the location result section */
+  div {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  

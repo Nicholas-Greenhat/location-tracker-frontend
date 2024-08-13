@@ -1,0 +1,12 @@
+<form (ngSubmit)="submitForm()">
+    <label for="phone">Enter Phone Number:</label>
+    <input type="text" id="phone" [(ngModel)]="phoneNumber" name="phoneNumber" required>
+    <button type="submit">Track Location</button>
+  </form>
+  
+  <div *ngIf="location">
+    <h3>Location Information:</h3>
+    <p>Carrier: {{location.carrier}}</p>
+    <p>Country Code: {{location.countryCode}}</p>
+  </div>
+  
